@@ -42,8 +42,10 @@ public class ServiceEx {
 		
 		controller.setService(new MemberService());
 		controller.service.login();
+		
 		controller.setService(new AService());
 		controller.service.login();
+		
 		controller.setService(new BService());
 		controller.service.login();
 		
